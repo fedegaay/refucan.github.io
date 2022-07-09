@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<header>
+    <h1 id="persona">Carga de Personas</h1>
+</header>
+<body>
+    <form id="personas" action="cargarpersona.php" method="POST">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label>Nombre:</label><br><input type="text" name="nombre" placeholder="Nombre" size="30"/><br>
+            <label>Apellido:</label><br><input type="text" name="apellido" placeholder="Apellido" size="30"/><br>
+            <label>Nº de Documento:</label><br><input type="text" name="dni" placeholder="DNI" size="30"><br>
+            <label>Domicilio:</label><br><input type="text" name="domicilio" placeholder="Domicilio" size="30"/><br>
+            <label>Celular:</label><br><input type="text" name="telefono" placeholder="sin 0 y sin 15" size="30"/><br>
+            <label>Correo Electronico:</label><br><input type="text" name="email" placeholder="Correo Electronico"size="30"><br>
+            <label>Id del Animal:</label><br><input type="text" name="animal_id" placeholder="Id de Animal"size="30"><br>
+            <button type="submit">Cargar</button>
+        </fieldset>
+        <br>
+        <button class="botones"><a href="cargar.html">Volver</a></button>
+    </form>
+</body>

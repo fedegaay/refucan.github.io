@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<header>
+    <h1 id="perro">Carga de Perros</h1>
+</header>
+<body>
+    <form id="perros" action="cargarperro.php" method="POST">
+        <fieldset>
+            <legend>Datos del Animal</legend>
+            <label>Nombre:</label><input type="text" name="nombre" placeholder="Nombre" size="30"/><br>
+            <label>Raza:</label><input type="text" name="raza" placeholder="Raza" size="33"/><br>
+            <label>Porte:</label><input type="text" name="porte" placeholder="Porte" size="33"/><br>
+            <label>Manto:</label><input type="text" name="manto" placeholder="Manto" size="32"/><br>
+            <label>Rasgo Particular:</label><br>
+            <textarea cols="37" rows="10"></textarea><br>
+            <label>Cargar Foto del Animal:</label><br><input type="file" name="foto"><br>
+            <label>DNI del dueño:</label><input type="text" name="dnidueño" placeholder="DNI del Dueño" size="24" /><br>
+            <label>Cargar Historia Clinica:</label><br><input type="file" name="historia"><br>
+            <label>Seleccione protectora:</label>
+            <select name="protectora" id="protectora">
+                <option value="protectora1">Protectora 1</option>
+                <option value="protectora2">Protectora 2</option>
+                <option value="protectora3">Protectora 3</option>
+                <option value="protectora4">Protectora 4</option>
+                <option value="protectora5">Protectora 5</option>
+            </select><br>
+            <button type="submit">Cargar</button>
+        </fieldset>
+        <br>
+        <button class="botones"><a href="cargar.html">Volver</a></button>
+    </form>
+</body>

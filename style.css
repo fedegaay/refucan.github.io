@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+
+.boxLogoIndex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo {
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+
+.menuLateral {
+    
+    flex: 1; 
+}
+
+.menuLateral > ul {
+    border: 2px solid orange;
+    padding: 20px;
+}
+
+.central {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+.banner {
+    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: coral;
+
+}
+
+.botones {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 25px;
+    height: 5em;
+}
+
+#perros{
+    width: 20%;
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#perro{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    border: 5px solid black;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#personas{
+    width: 40%;
+    text-align: center;
+    padding: 15px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#persona{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    border: 5px solid black;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+}
