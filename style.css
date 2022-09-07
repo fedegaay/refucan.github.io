@@ -1,6 +1,146 @@
-.container {
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(16,16,16,0.7),rgba(16,16,16,0.7)), url(fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    background-attachment: fixed;
+}
+
+.navbar{
     display: flex;
-    flex-direction: column;
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    width: 5%;
+}
+
+.d-inline-block{
+    margin-left: 30%;
+}
+
+.titulos{
+    width: 95%;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 50px;
+}
+
+.btn{
+    margin-left: 15%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    background-color: #fcaa1b !important;
+    color: black !important;
+}
+
+#btn-volver{
+    margin-left: 41%;
+    margin-top: 50px;
+}
+
+.btn:hover{
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    background-color: #fcaa1b;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.menuLateral{
+    width: 30%;
+}
+
+.central{
+    width: 50%;
+    top: 500px;
+}
+
+.list-group{
+    width: 50%;
+    margin-top: 50%;
+    margin-left: -5%;
+}
+
+.card{
+    margin-left: 30%;
+}
+
+.card-img-top{
+    width: 180px;
+    height: 280px;
+}
+
+.banner{
+    width: 25%;
+}
+
+.banners{
+    display: flex;
+    float: right;
+}
+
+.titulo-carga{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.botones-carga{
+    margin: 50px;
+}
+
+.accordion-item{
+    margin-left: 30%;
+    width: 40%;
+}
+
+#perros{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn3{
+    background-color: #fcaa1b !important;
+    color: black !important;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 5%;
+}
+
+.btn3:hover{
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    background-color: #fcaa1b;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+
+/*.container {
+    
     justify-content: center;
 }
 
@@ -58,6 +198,7 @@ main {
     height: 5em;
 }
 
+
 #perros{
     width: 20%;
     text-align: center;
@@ -95,3 +236,4 @@ main {
     height: 60px;
     line-height: 60px;
 }
+*/
