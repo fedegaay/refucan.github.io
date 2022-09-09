@@ -29,7 +29,7 @@
         )";
 
     $resultado = mysqli_query($con, $sql2) or die('Error de consulta');
-
+    mysqli_close($con);
     
         
     
