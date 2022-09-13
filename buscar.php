@@ -30,10 +30,12 @@
     
     if(isset($_POST['buscar'])) {
 
-        $consulta = "SELECT * FROM animales WHERE nombre like '%{$_POST['nombre']}%' and raza like '%{$_POST['raza']}%' and porte like '%{$_POST['porte']}%'
+        $consulta = "SELECT * FROM animales WHERE animales.nombre LIKE '%{$_POST['nombre']}%' 
+        AND animales.raza LIKE '%{$_POST['raza']}%' 
+        AND animales.dni LIKE '%{$_POST['dni']}%' 
+        AND animales.porte LIKE '%{$_POST['porte']}%'
         
         ";
-    
     
     $resultado = mysqli_query($con, $consulta);
 ?>
